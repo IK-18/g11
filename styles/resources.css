@@ -1,0 +1,579 @@
+.div .section {
+	justify-content: center;
+	background-color: #fcfcfc;
+	box-shadow: 0px 2px 4px #00000013;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	align-self: stretch;
+	width: 100%;
+	flex: 0 0 auto;
+}
+
+.div .help-jpg {
+	position: relative;
+	max-width: 1635px;
+	width: 1635px;
+	height: 367.88px;
+	background-image: url(./img/help-jpg.png);
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+.div .container-wrapper {
+	padding: 60px 157.5px 76px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	align-self: stretch;
+	width: 100%;
+	flex: 0 0 auto;
+}
+
+.div .container {
+	display: flex;
+	flex-direction: column;
+	max-width: 1320px;
+	width: 1320px;
+	align-items: flex-start;
+	gap: 32px;
+	padding: 0px 12px;
+	position: relative;
+	flex: 0 0 auto;
+}
+
+.div .heading {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px 0px 0.59px;
+	position: relative;
+	align-self: stretch;
+	width: 100%;
+	flex: 0 0 auto;
+}
+
+.div .text-wrapper {
+	position: relative;
+	align-self: stretch;
+	margin-top: -1px;
+	font-family: var(
+		--www-missingpersonsplatform-com-semantic-heading-3-font-family
+	);
+	font-weight: var(
+		--www-missingpersonsplatform-com-semantic-heading-3-font-weight
+	);
+	color: #1b0324;
+	font-size: var(
+		--www-missingpersonsplatform-com-semantic-heading-3-font-size
+	);
+	letter-spacing: var(
+		--www-missingpersonsplatform-com-semantic-heading-3-letter-spacing
+	);
+	line-height: var(
+		--www-missingpersonsplatform-com-semantic-heading-3-line-height
+	);
+	font-style: var(
+		--www-missingpersonsplatform-com-semantic-heading-3-font-style
+	);
+}
+
+.div .div {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	position: relative;
+	align-self: stretch;
+	width: 100%;
+	flex: 0 0 auto;
+}
+
+.div .strong-what-to-do-if-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px 0px 4px;
+	position: relative;
+	align-self: stretch;
+	width: 100%;
+	flex: 0 0 auto;
+}
+
+.div .strong-what-to-do-if {
+	position: relative;
+	align-self: stretch;
+	margin-top: -1px;
+	font-family: "Inter-Bold", Helvetica;
+	font-weight: 700;
+	color: var(--wwwmissingpersonsplatformcomblack);
+	font-size: 26.4px;
+	letter-spacing: 0;
+	line-height: 24px;
+}
+
+.div .container-2 {
+	position: relative;
+	align-self: stretch;
+	width: 100%;
+	height: 24px;
+}
+
+.div .p {
+	position: relative;
+	width: fit-content;
+	margin-top: -1px;
+	font-family: "Inter-Regular", Helvetica;
+	font-weight: 400;
+	color: var(--wwwmissingpersonsplatformcomblack);
+	font-size: 15.6px;
+	letter-spacing: 0;
+	line-height: 24px;
+	white-space: nowrap;
+}
+
+.div .text-wrapper-2 {
+	position: relative;
+	width: fit-content;
+	font-family: "Inter-Regular", Helvetica;
+	font-weight: 400;
+	color: var(--wwwmissingpersonsplatformcomblack);
+	font-size: 15px;
+	letter-spacing: 0;
+	line-height: 24px;
+	white-space: nowrap;
+}
+
+.div .strong-notify-the-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px 0px 2px;
+	position: relative;
+	align-self: stretch;
+	width: 100%;
+	flex: 0 0 auto;
+}
+
+.div .strong-notify-the {
+	position: relative;
+	align-self: stretch;
+	margin-top: -1px;
+	font-family: "Inter-Bold", Helvetica;
+	font-weight: 700;
+	color: var(--wwwmissingpersonsplatformcomblack);
+	font-size: 20.6px;
+	letter-spacing: 0;
+	line-height: 24px;
+}
+
+.div .container-3 {
+	position: relative;
+	align-self: stretch;
+	width: 100%;
+	height: 72px;
+}
+
+.div .text-wrapper-3 {
+	position: absolute;
+	width: 1296px;
+	height: 24px;
+	top: -2px;
+	left: 0;
+	font-family: "Inter-Regular", Helvetica;
+	font-weight: 400;
+	color: var(--wwwmissingpersonsplatformcomblack);
+	font-size: 16px;
+	letter-spacing: 0;
+	line-height: 24px;
+	white-space: nowrap;
+}
+
+.div .overlap-group {
+	position: absolute;
+	width: 1296px;
+	height: 48px;
+	top: 22px;
+	left: 0;
+}
+
+.div .component {
+	display: inline-flex;
+	align-items: flex-start;
+	position: absolute;
+	top: 4px;
+	left: 0;
+}
+
+.div .text {
+	position: relative;
+	width: fit-content;
+	margin-top: -1px;
+	font-family: var(
+		--www-missingpersonsplatform-com-inter-regular-underline-font-family
+	);
+	font-weight: var(
+		--www-missingpersonsplatform-com-inter-regular-underline-font-weight
+	);
+	color: #0d6efd;
+	font-size: var(
+		--www-missingpersonsplatform-com-inter-regular-underline-font-size
+	);
+	letter-spacing: var(
+		--www-missingpersonsplatform-com-inter-regular-underline-letter-spacing
+	);
+	line-height: var(
+		--www-missingpersonsplatform-com-inter-regular-underline-line-height
+	);
+	text-decoration: underline;
+	white-space: nowrap;
+	font-style: var(
+		--www-missingpersonsplatform-com-inter-regular-underline-font-style
+	);
+}
+
+.div .and-enter-your {
+	position: absolute;
+	width: 845px;
+	height: 24px;
+	top: 0;
+	left: 451px;
+	font-family: "Inter-Regular", Helvetica;
+	font-weight: 400;
+	color: var(--wwwmissingpersonsplatformcomblack);
+	font-size: 15.4px;
+	letter-spacing: 0;
+	line-height: 24px;
+	white-space: nowrap;
+}
+
+.div .should-be-aware-of {
+	position: absolute;
+	width: 923px;
+	height: 24px;
+	top: 24px;
+	left: 0;
+	font-family: "Inter-Regular", Helvetica;
+	font-weight: 400;
+	color: var(--wwwmissingpersonsplatformcomblack);
+	font-size: 14.9px;
+	letter-spacing: 0;
+	line-height: 24px;
+	white-space: nowrap;
+}
+
+.div .strong-provide-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px 0px 1.5px;
+	position: relative;
+	align-self: stretch;
+	width: 100%;
+	flex: 0 0 auto;
+}
+
+.div .text-wrapper-4 {
+	position: relative;
+	align-self: stretch;
+	margin-top: -1px;
+	font-family: "Inter-Bold", Helvetica;
+	font-weight: 700;
+	color: var(--wwwmissingpersonsplatformcomblack);
+	font-size: 18.3px;
+	letter-spacing: 0;
+	line-height: 24px;
+}
+
+.div .text-wrapper-5 {
+	position: relative;
+	width: fit-content;
+	margin-top: -1px;
+	font-family: "Inter-Regular", Helvetica;
+	font-weight: 400;
+	color: var(--wwwmissingpersonsplatformcomblack);
+	font-size: 15.4px;
+	letter-spacing: 0;
+	line-height: 24px;
+	white-space: nowrap;
+}
+
+.div .text-wrapper-6 {
+	position: relative;
+	width: fit-content;
+	font-family: "Inter-Regular", Helvetica;
+	font-weight: 400;
+	color: var(--wwwmissingpersonsplatformcomblack);
+	font-size: 14.8px;
+	letter-spacing: 0;
+	line-height: 24px;
+	white-space: nowrap;
+}
+
+.div .text-wrapper-7 {
+	position: relative;
+	align-self: stretch;
+	margin-top: -1px;
+	font-family: "Inter-Regular", Helvetica;
+	font-weight: 400;
+	color: var(--wwwmissingpersonsplatformcomblack);
+	font-size: 14.9px;
+	letter-spacing: 0;
+	line-height: 24px;
+}
+
+.div .list {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px 0px 0px 32px;
+	position: relative;
+	align-self: stretch;
+	width: 100%;
+	flex: 0 0 auto;
+}
+
+.div .text-wrapper-8 {
+	position: relative;
+	width: fit-content;
+	margin-top: -1px;
+	z-index: 1;
+	font-family: "Inter-Regular", Helvetica;
+	font-weight: 400;
+	color: var(--wwwmissingpersonsplatformcomblack);
+	font-size: 14.8px;
+	letter-spacing: 0;
+	line-height: 24px;
+	white-space: nowrap;
+}
+
+.div .symbol {
+	position: relative;
+	width: fit-content;
+	margin-top: -23.5px;
+	z-index: 0;
+	font-family: "Rubik-Regular", Helvetica;
+	font-weight: 400;
+	color: var(--wwwmissingpersonsplatformcomblack);
+	font-size: 16px;
+	letter-spacing: 0;
+	line-height: 24px;
+	white-space: nowrap;
+}
+
+.div .text-wrapper-9 {
+	position: relative;
+	width: fit-content;
+	margin-top: -1px;
+	z-index: 1;
+	font-family: "Inter-Regular", Helvetica;
+	font-weight: 400;
+	color: var(--wwwmissingpersonsplatformcomblack);
+	font-size: 15px;
+	letter-spacing: 0;
+	line-height: 24px;
+	white-space: nowrap;
+}
+
+.div .text-wrapper-10 {
+	position: relative;
+	width: fit-content;
+	margin-top: -1px;
+	z-index: 1;
+	font-family: var(
+		--www-missingpersonsplatform-com-semantic-item-font-family
+	);
+	font-weight: var(
+		--www-missingpersonsplatform-com-semantic-item-font-weight
+	);
+	color: var(--wwwmissingpersonsplatformcomblack);
+	font-size: var(--www-missingpersonsplatform-com-semantic-item-font-size);
+	letter-spacing: var(
+		--www-missingpersonsplatform-com-semantic-item-letter-spacing
+	);
+	line-height: var(
+		--www-missingpersonsplatform-com-semantic-item-line-height
+	);
+	white-space: nowrap;
+	font-style: var(--www-missingpersonsplatform-com-semantic-item-font-style);
+}
+
+.div .container-4 {
+	position: relative;
+	align-self: stretch;
+	width: 100%;
+	height: 40px;
+}
+
+.div .strong-make-contact-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px 0px 1px;
+	position: relative;
+	align-self: stretch;
+	width: 100%;
+	flex: 0 0 auto;
+}
+
+.div .strong-make-contact {
+	position: relative;
+	align-self: stretch;
+	margin-top: -1px;
+	font-family: var(
+		--www-missingpersonsplatform-com-semantic-strong-font-family
+	);
+	font-weight: var(
+		--www-missingpersonsplatform-com-semantic-strong-font-weight
+	);
+	color: var(--wwwmissingpersonsplatformcomblack);
+	font-size: var(--www-missingpersonsplatform-com-semantic-strong-font-size);
+	letter-spacing: var(
+		--www-missingpersonsplatform-com-semantic-strong-letter-spacing
+	);
+	line-height: var(
+		--www-missingpersonsplatform-com-semantic-strong-line-height
+	);
+	font-style: var(
+		--www-missingpersonsplatform-com-semantic-strong-font-style
+	);
+}
+
+.div .text-wrapper-11 {
+	position: relative;
+	width: fit-content;
+	margin-top: -1px;
+	font-family: "Inter-Regular", Helvetica;
+	font-weight: 400;
+	color: var(--wwwmissingpersonsplatformcomblack);
+	font-size: 15px;
+	letter-spacing: 0;
+	line-height: 24px;
+	white-space: nowrap;
+}
+
+.div .text-wrapper-12 {
+	position: relative;
+	width: fit-content;
+	font-family: "Inter-Regular", Helvetica;
+	font-weight: 400;
+	color: var(--wwwmissingpersonsplatformcomblack);
+	font-size: 15.1px;
+	letter-spacing: 0;
+	line-height: 24px;
+	white-space: nowrap;
+}
+
+.div .strong-register-with-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 16px 0px 1.5px;
+	position: relative;
+	align-self: stretch;
+	width: 100%;
+	flex: 0 0 auto;
+}
+
+.div .text-wrapper-13 {
+	position: relative;
+	width: fit-content;
+	margin-top: -1px;
+	font-family: "Inter-Regular", Helvetica;
+	font-weight: 400;
+	color: var(--wwwmissingpersonsplatformcomblack);
+	font-size: 15.1px;
+	letter-spacing: 0;
+	line-height: 24px;
+	white-space: nowrap;
+}
+
+.div .text-wrapper-14 {
+	position: relative;
+	width: fit-content;
+	font-family: "Inter-Regular", Helvetica;
+	font-weight: 400;
+	color: var(--wwwmissingpersonsplatformcomblack);
+	font-size: 15.2px;
+	letter-spacing: 0;
+	line-height: 24px;
+	white-space: nowrap;
+}
+
+.div .component-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 3px 0px 4px;
+	position: relative;
+	align-self: stretch;
+	width: 100%;
+	flex: 0 0 auto;
+}
+
+.div .div-wrapper {
+	display: inline-flex;
+	align-items: flex-start;
+	position: relative;
+	flex: 0 0 auto;
+}
+
+.div .container-5 {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 23.5px 0px 0.5px;
+	position: relative;
+	align-self: stretch;
+	width: 100%;
+	flex: 0 0 auto;
+}
+
+.div .text-wrapper-15 {
+	position: relative;
+	align-self: stretch;
+	margin-top: -1px;
+	font-family: "Inter-Regular", Helvetica;
+	font-weight: 400;
+	color: var(--wwwmissingpersonsplatformcomblack);
+	font-size: 15px;
+	letter-spacing: 0;
+	line-height: 24px;
+}
+
+.div .text-wrapper-16 {
+	position: relative;
+	width: fit-content;
+	margin-top: -1px;
+	font-family: var(
+		--www-missingpersonsplatform-com-inter-regular-font-family
+	);
+	font-weight: var(
+		--www-missingpersonsplatform-com-inter-regular-font-weight
+	);
+	color: var(--wwwmissingpersonsplatformcomblack);
+	font-size: var(--www-missingpersonsplatform-com-inter-regular-font-size);
+	letter-spacing: var(
+		--www-missingpersonsplatform-com-inter-regular-letter-spacing
+	);
+	line-height: var(
+		--www-missingpersonsplatform-com-inter-regular-line-height
+	);
+	white-space: nowrap;
+	font-style: var(--www-missingpersonsplatform-com-inter-regular-font-style);
+}
+
+.div .text-wrapper-17 {
+	position: relative;
+	width: fit-content;
+	font-family: "Inter-Regular", Helvetica;
+	font-weight: 400;
+	color: var(--wwwmissingpersonsplatformcomblack);
+	font-size: 14.9px;
+	letter-spacing: 0;
+	line-height: 24px;
+	white-space: nowrap;
+}
+
+@import url("./global.css");

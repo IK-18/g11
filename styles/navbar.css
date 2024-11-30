@@ -1,0 +1,120 @@
+.navbar {
+	position: absolute;
+	width: 100vw;
+	height: 10vh;
+	top: 0;
+	left: 0;
+	background-color: #1b0324;
+	display: flex;
+}
+
+.logo {
+	width: 231px;
+	height: 42px;
+}
+
+.security-shield {
+	width: 47px;
+	height: 42px;
+}
+
+.text-wrapper {
+	font-family: "Poppins-Bold", Helvetica;
+	font-weight: 700;
+	color: #d7c2df;
+	font-size: 28px;
+	letter-spacing: 0;
+	line-height: normal;
+}
+
+.text-wrapper-2 {
+	font-family: "Poppins-Medium", Helvetica;
+	font-weight: 500;
+	color: #d7c2df;
+	font-size: 21px;
+	letter-spacing: 0;
+	line-height: normal;
+}
+
+.text-wrapper-3 {
+	font-family: "Poppins-Medium", Helvetica;
+	font-weight: 500;
+	color: #d7c2df;
+	font-size: 21px;
+	letter-spacing: 0;
+	line-height: normal;
+}
+
+.text-wrapper-4 {
+	font-family: "Poppins-Medium", Helvetica;
+	font-weight: 500;
+	color: #d7c2df;
+	font-size: 21px;
+	letter-spacing: 0;
+	line-height: normal;
+}
+
+.text-wrapper-5 {
+	font-family: "Poppins-Medium", Helvetica;
+	font-weight: 500;
+	color: #d7c2df;
+	font-size: 21px;
+	letter-spacing: 0;
+	line-height: normal;
+}
+
+.text-wrapper-6 {
+	font-family: "Poppins-Medium", Helvetica;
+	font-weight: 500;
+	color: #d7c2df;
+	font-size: 21px;
+	letter-spacing: 0;
+	line-height: normal;
+}
+
+.text-wrapper-7 {
+	font-family: "Poppins-Medium", Helvetica;
+	font-weight: 500;
+	color: #d7c2df;
+	font-size: 21px;
+	letter-spacing: 0;
+	line-height: normal;
+}
+
+.text-wrapper-8 {
+	font-family: "Poppins-Medium", Helvetica;
+	font-weight: 500;
+	color: #d7c2df;
+	font-size: 21px;
+	letter-spacing: 0;
+	line-height: normal;
+}
+
+.text-wrapper-9 {
+	font-family: "Poppins-Medium", Helvetica;
+	font-weight: 500;
+	color: #d7c2df;
+	font-size: 21px;
+	letter-spacing: 0;
+	line-height: normal;
+}
+
+.get-started {
+	width: 183px;
+	height: 57px;
+	border-radius: 12px;
+	background: linear-gradient(
+		90deg,
+		rgb(102.45, 11.35, 138.47) 0%,
+		rgb(26.98, 2.99, 36.47) 80%
+	);
+}
+
+.text-wrapper-10 {
+	font-family: "Poppins-Medium", Helvetica;
+	font-weight: 500;
+	color: #d7c2df;
+	font-size: 18px;
+	letter-spacing: 0;
+	line-height: normal;
+}

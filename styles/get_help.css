@@ -1,0 +1,533 @@
+.div .section {
+	justify-content: center;
+	background-color: #fcfcfc;
+	box-shadow: 0px 2px 4px #00000013;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	align-self: stretch;
+	width: 100%;
+	flex: 0 0 auto;
+}
+
+.div .psychologists-jpg {
+	position: relative;
+	max-width: 1635px;
+	width: 1635px;
+	height: 367.88px;
+	background-image: url(./img/psychologists-jpg.png);
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+.div .container-wrapper {
+	padding: 60px 157.5px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	align-self: stretch;
+	width: 100%;
+	flex: 0 0 auto;
+}
+
+.div .container {
+	display: flex;
+	max-width: 1320px;
+	width: 1320px;
+	align-items: center;
+	gap: 32px;
+	flex: 0 0 auto;
+	flex-direction: column;
+	position: relative;
+}
+
+.div .heading {
+	padding: 0px 0px 0.59px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	position: relative;
+	align-self: stretch;
+	width: 100%;
+	flex: 0 0 auto;
+}
+
+.div .text-wrapper {
+	position: relative;
+	align-self: stretch;
+	margin-top: -1px;
+	font-family: var(
+		--www-missingpersonsplatform-com-semantic-heading-3-font-family
+	);
+	font-weight: var(
+		--www-missingpersonsplatform-com-semantic-heading-3-font-weight
+	);
+	color: #1b0324;
+	font-size: var(
+		--www-missingpersonsplatform-com-semantic-heading-3-font-size
+	);
+	letter-spacing: var(
+		--www-missingpersonsplatform-com-semantic-heading-3-letter-spacing
+	);
+	line-height: var(
+		--www-missingpersonsplatform-com-semantic-heading-3-line-height
+	);
+	font-style: var(
+		--www-missingpersonsplatform-com-semantic-heading-3-font-style
+	);
+}
+
+.div .tablist {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: center;
+	gap: 0px 0px;
+	padding: 0px 535.09px 0px 535.08px;
+	position: relative;
+	align-self: stretch;
+	width: 100%;
+	flex: 0 0 auto;
+}
+
+.div .tab-wrapper {
+	display: inline-flex;
+	align-items: flex-start;
+	padding: 0px 3.19px;
+	align-self: stretch;
+	flex: 0 0 auto;
+	flex-direction: column;
+	position: relative;
+}
+
+.div .tab {
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 8px 40px;
+	position: relative;
+	flex: 0 0 auto;
+	background-color: #1b0324;
+	border-radius: 4px;
+}
+
+.div .div {
+	position: relative;
+	width: fit-content;
+	margin-top: -1px;
+	font-family: "Rubik-Regular", Helvetica;
+	font-weight: 400;
+	color: #ffffff;
+	font-size: 16px;
+	text-align: center;
+	letter-spacing: 0;
+	line-height: 24px;
+	white-space: nowrap;
+}
+
+.div .tabpanel {
+	display: flex;
+	flex-wrap: wrap;
+	min-height: 400px;
+	align-items: flex-start;
+	gap: 0px 0px;
+	position: relative;
+	align-self: stretch;
+	width: 100%;
+	flex: 0 0 auto;
+}
+
+.div .background-shadow-wrapper {
+	display: flex;
+	max-width: 1320px;
+	align-items: flex-start;
+	padding: 0px 12px;
+	flex: 1;
+	align-self: stretch;
+	flex-grow: 1;
+	flex-direction: column;
+	position: relative;
+}
+
+.div .background-shadow {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 16px;
+	position: relative;
+	align-self: stretch;
+	width: 100%;
+	flex: 0 0 auto;
+	background-color: #32103f26;
+	border-radius: 30px 0px 30px 0px;
+	overflow: hidden;
+	box-shadow: 0px 0px 16px -11px #000000;
+}
+
+.div .div-wrapper {
+	align-items: center;
+	padding: 0px 62px 17px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-color: #dee8f8;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	align-self: stretch;
+	width: 100%;
+	flex: 0 0 auto;
+}
+
+.div .maple-png {
+	position: relative;
+	max-width: 274px;
+	width: 150px;
+	height: 70px;
+	background-image: url(./img/maple-png.png);
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+.div .div-wrapper-2 {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 16px 0px 0px;
+	position: relative;
+	align-self: stretch;
+	width: 100%;
+	flex: 0 0 auto;
+}
+
+.div .div-2 {
+	align-items: flex-start;
+	gap: 8px;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	align-self: stretch;
+	width: 100%;
+	flex: 0 0 auto;
+}
+
+.div .heading-2 {
+	min-height: 48px;
+	padding: 0px 0px 24px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	position: relative;
+	align-self: stretch;
+	width: 100%;
+	flex: 0 0 auto;
+}
+
+.div .text-wrapper-2 {
+	position: relative;
+	align-self: stretch;
+	margin-top: -1px;
+	font-family: var(
+		--www-missingpersonsplatform-com-semantic-heading-5-font-family
+	);
+	font-weight: var(
+		--www-missingpersonsplatform-com-semantic-heading-5-font-weight
+	);
+	color: #212529;
+	font-size: var(
+		--www-missingpersonsplatform-com-semantic-heading-5-font-size
+	);
+	letter-spacing: var(
+		--www-missingpersonsplatform-com-semantic-heading-5-letter-spacing
+	);
+	line-height: var(
+		--www-missingpersonsplatform-com-semantic-heading-5-line-height
+	);
+	font-style: var(
+		--www-missingpersonsplatform-com-semantic-heading-5-font-style
+	);
+}
+
+.div .container-2 {
+	display: flex;
+	align-items: flex-start;
+	align-self: stretch;
+	width: 100%;
+	flex: 0 0 auto;
+	flex-direction: column;
+	position: relative;
+}
+
+.div .text-wrapper-3 {
+	position: relative;
+	align-self: stretch;
+	margin-top: -1px;
+	font-family: var(
+		--www-missingpersonsplatform-com-rubik-regular-font-family
+	);
+	font-weight: var(
+		--www-missingpersonsplatform-com-rubik-regular-font-weight
+	);
+	color: #1b0324;
+	font-size: var(--www-missingpersonsplatform-com-rubik-regular-font-size);
+	letter-spacing: var(
+		--www-missingpersonsplatform-com-rubik-regular-letter-spacing
+	);
+	line-height: var(
+		--www-missingpersonsplatform-com-rubik-regular-line-height
+	);
+	font-style: var(--www-missingpersonsplatform-com-rubik-regular-font-style);
+}
+
+.div .container-3 {
+	display: flex;
+	align-items: flex-start;
+	padding: 24px 0px 0px;
+	align-self: stretch;
+	width: 100%;
+	flex: 0 0 auto;
+	flex-direction: column;
+	position: relative;
+}
+
+.div .p {
+	position: relative;
+	align-self: stretch;
+	margin-top: -1px;
+	font-family: var(--www-missingpersonsplatform-com-rubik-italic-font-family);
+	font-weight: var(--www-missingpersonsplatform-com-rubik-italic-font-weight);
+	font-style: var(--www-missingpersonsplatform-com-rubik-italic-font-style);
+	color: #212529;
+	font-size: var(--www-missingpersonsplatform-com-rubik-italic-font-size);
+	letter-spacing: var(
+		--www-missingpersonsplatform-com-rubik-italic-letter-spacing
+	);
+	line-height: var(--www-missingpersonsplatform-com-rubik-italic-line-height);
+}
+
+.div .paragraph {
+	display: flex;
+	align-items: center;
+	padding: 24px 0px 0px;
+	position: relative;
+	align-self: stretch;
+	width: 100%;
+	flex: 0 0 auto;
+}
+
+.div .symbol {
+	color: #1b0324;
+	position: relative;
+	width: fit-content;
+	font-family: var(
+		--www-missingpersonsplatform-com-font-awesome-5-free-solid-font-family
+	);
+	font-weight: var(
+		--www-missingpersonsplatform-com-font-awesome-5-free-solid-font-weight
+	);
+	font-size: var(
+		--www-missingpersonsplatform-com-font-awesome-5-free-solid-font-size
+	);
+	letter-spacing: var(
+		--www-missingpersonsplatform-com-font-awesome-5-free-solid-letter-spacing
+	);
+	line-height: var(
+		--www-missingpersonsplatform-com-font-awesome-5-free-solid-line-height
+	);
+	white-space: nowrap;
+	font-style: var(
+		--www-missingpersonsplatform-com-font-awesome-5-free-solid-font-style
+	);
+}
+
+.div .text-wrapper-4 {
+	position: relative;
+	width: fit-content;
+	margin-top: -1px;
+	font-family: var(
+		--www-missingpersonsplatform-com-rubik-regular-font-family
+	);
+	font-weight: var(
+		--www-missingpersonsplatform-com-rubik-regular-font-weight
+	);
+	color: #1b0324;
+	font-size: var(--www-missingpersonsplatform-com-rubik-regular-font-size);
+	letter-spacing: var(
+		--www-missingpersonsplatform-com-rubik-regular-letter-spacing
+	);
+	line-height: var(
+		--www-missingpersonsplatform-com-rubik-regular-line-height
+	);
+	white-space: nowrap;
+	font-style: var(--www-missingpersonsplatform-com-rubik-regular-font-style);
+}
+
+.div .component-wrapper {
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	padding: 16px 0px 0px;
+	align-self: stretch;
+	width: 100%;
+	flex: 0 0 auto;
+	flex-direction: column;
+	position: relative;
+}
+
+.div .component {
+	display: inline-flex;
+	align-items: center;
+	justify-content: flex-end;
+	padding: 4px 16px;
+	position: relative;
+	flex: 0 0 auto;
+	background-color: #1b0324;
+	border-radius: 25px;
+}
+
+.div .view-more {
+	position: relative;
+	width: fit-content;
+	margin-top: -1px;
+	font-family: var(
+		--www-missingpersonsplatform-com-rubik-regular-font-family
+	);
+	font-weight: var(
+		--www-missingpersonsplatform-com-rubik-regular-font-weight
+	);
+	color: #ffffff;
+	font-size: var(--www-missingpersonsplatform-com-rubik-regular-font-size);
+	text-align: center;
+	letter-spacing: var(
+		--www-missingpersonsplatform-com-rubik-regular-letter-spacing
+	);
+	line-height: var(
+		--www-missingpersonsplatform-com-rubik-regular-line-height
+	);
+	white-space: nowrap;
+	font-style: var(--www-missingpersonsplatform-com-rubik-regular-font-style);
+}
+
+.div .symbol-2 {
+	margin-left: -1.42e-14px;
+	color: #ffffff;
+	text-align: center;
+	position: relative;
+	width: fit-content;
+	font-family: var(
+		--www-missingpersonsplatform-com-font-awesome-5-free-solid-font-family
+	);
+	font-weight: var(
+		--www-missingpersonsplatform-com-font-awesome-5-free-solid-font-weight
+	);
+	font-size: var(
+		--www-missingpersonsplatform-com-font-awesome-5-free-solid-font-size
+	);
+	letter-spacing: var(
+		--www-missingpersonsplatform-com-font-awesome-5-free-solid-letter-spacing
+	);
+	line-height: var(
+		--www-missingpersonsplatform-com-font-awesome-5-free-solid-line-height
+	);
+	white-space: nowrap;
+	font-style: var(
+		--www-missingpersonsplatform-com-font-awesome-5-free-solid-font-style
+	);
+}
+
+.div .synapse-png {
+	position: relative;
+	max-width: 274px;
+	width: 150px;
+	height: 70px;
+	background-image: url(./img/synapse-png.png);
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+.div .component-2 {
+	display: inline-flex;
+	align-items: center;
+	justify-content: flex-end;
+	gap: 4.26e-14px;
+	padding: 4px 16px;
+	position: relative;
+	flex: 0 0 auto;
+	background-color: #1b0324;
+	border-radius: 25px;
+}
+
+.div .symbol-3 {
+	color: #ffffff;
+	text-align: center;
+	position: relative;
+	width: fit-content;
+	font-family: var(
+		--www-missingpersonsplatform-com-font-awesome-5-free-solid-font-family
+	);
+	font-weight: var(
+		--www-missingpersonsplatform-com-font-awesome-5-free-solid-font-weight
+	);
+	font-size: var(
+		--www-missingpersonsplatform-com-font-awesome-5-free-solid-font-size
+	);
+	letter-spacing: var(
+		--www-missingpersonsplatform-com-font-awesome-5-free-solid-letter-spacing
+	);
+	line-height: var(
+		--www-missingpersonsplatform-com-font-awesome-5-free-solid-line-height
+	);
+	white-space: nowrap;
+	font-style: var(
+		--www-missingpersonsplatform-com-font-awesome-5-free-solid-font-style
+	);
+}
+
+.div .background-shadow-2 {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 16px;
+	position: relative;
+	align-self: stretch;
+	width: 100%;
+	flex: 0 0 auto;
+	background-color: #33114026;
+	border-radius: 30px 0px 30px 0px;
+	overflow: hidden;
+	box-shadow: 0px 0px 16px -11px #000000;
+}
+
+.div .bhc-png {
+	position: relative;
+	max-width: 274px;
+	width: 150px;
+	height: 70px;
+	background-image: url(./img/bhc-png.png);
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+.div .heading-3 {
+	display: flex;
+	flex-direction: column;
+	min-height: 48px;
+	align-items: flex-start;
+	position: relative;
+	align-self: stretch;
+	width: 100%;
+	flex: 0 0 auto;
+}
+
+.div .olive-logo-png {
+	position: relative;
+	max-width: 274px;
+	width: 150px;
+	height: 70px;
+	background-image: url(./img/olive-logo-png.png);
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+@import url("./global.css");
