@@ -1,32 +1,31 @@
+<?php session_start() ?>
 <!DOCTYPE html>
 <html>
-<?php include './views/head.php' ?>
+<?php include '../views/head.php' ?>
 
 <body>
 	<div class="desktop">
 		<div class="div">
-			<?php include './views/navbar.php' ?>
+			<?php include '../views/navbar.php' ?>
 			<div class="section">
 				<div class="volunteer-bg-jpg"></div>
 			</div>
 			<div class="container-wrapper">
 				<div class="container">
 					<div class="heading">
-						<div class="text-wrapper">Donate Resources</div>
+						<div class="text-wrapper-1">Donate Resources</div>
 					</div>
 					<div class="figure">
-						<div class="div-wrapper">
-							<p class="div">Giving is not just about making a donation. It is about making a difference
+						<div class="div-cont">
+							<p class="p">
+								Giving is not just about making a donation. It is about making a difference.
 							</p>
 						</div>
-						<div class="div-wrapper">
-							<p class="kathy-calvin"><span class="span">— </span> <span class="text-wrapper-2">Kathy
-									Calvin</span></p>
+						<div class="div-cont">
+							<p class="div-2"><span class="span">— Kathy Calvin</span></p>
 						</div>
 					</div>
-					<div class="heading-2">
-						<p class="p">The Missing Persons Project involves several projects and activities:</p>
-					</div>
+					<div class="heading-2 p">The Missing Persons Project involves several projects and activities:</div>
 					<div class="overlay-shadow">
 						<div class="container-2">
 							<div class="container-3">
@@ -39,15 +38,15 @@
 								<div class="div-wrapper">
 									<p class="text-wrapper-4">
 										This is targeted at churches, Mosques, Schools, Market Places and other public
-										spaces to help raise
-										awareness and increase the chances of finding missing persons
-										across<br />Nigeria.
+										spaces to help raise awareness and increase the chances of finding missing
+										persons
+										across Nigeria.
 									</p>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="overlay-shadow-2">
+					<div class="overlay-shadow">
 						<div class="container-2">
 							<div class="container-3">
 								<div class="psycho-social"></div>
@@ -61,10 +60,10 @@
 										We partner with Psychologists, Social Workers/Healthcare Organisations to
 										provide support group
 										services to the families of missing persons. Training is also provided
-										for<br />Organisations to
+										for Organisations to
 										enhance their ability to handle missing persons challenges in the workplace and
 										Quarterly training
-										for Social Workers, Security personnel on missing persons,<br />and how to
+										for Social Workers, Security personnel on missing persons, and how to
 										handle such situations.
 									</p>
 								</div>
@@ -76,7 +75,7 @@
 							To continue to make this impact we need your support. The extent of the support we can
 							provide to victims,
 							their families and networks is limited by the amount of resources we have and receive. A
-							donation from<br />you,
+							donation from you,
 							no matter how small, can make the difference.
 						</p>
 					</div>
@@ -87,7 +86,7 @@
 					</div>
 				</div>
 			</div>
-			<?php include './views/footer.html' ?>
+			<?php include '../views/footer.html' ?>
 		</div>
 	</div>
 </body>

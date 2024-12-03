@@ -1,60 +1,55 @@
+@import url("./global.css");
+
 .div .section {
 	justify-content: center;
 	background-color: #fcfcfc;
 	box-shadow: 0px 2px 4px #00000013;
 	display: flex;
-	flex-direction: column;
 	align-items: center;
 	position: relative;
 	align-self: stretch;
-	width: 100%;
-	flex: 0 0 auto;
+	width: 100vw;
+	height: 50vh;
 }
 
 .div .psychologists-jpg {
 	position: relative;
-	max-width: 1635px;
-	width: 1635px;
-	height: 367.88px;
+	width: 100%;
+	height: 100%;
 	background-image: url(./img/psychologists-jpg.png);
 	background-size: cover;
 	background-position: 50% 50%;
 }
 
 .div .container-wrapper {
-	padding: 60px 157.5px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	position: relative;
 	align-self: stretch;
-	width: 100%;
-	flex: 0 0 auto;
+	width: 100vw;
+	margin: 2vw 0;
 }
 
 .div .container {
 	display: flex;
-	max-width: 1320px;
-	width: 1320px;
+	width: 90%;
 	align-items: center;
-	gap: 32px;
+	gap: 2vw;
 	flex: 0 0 auto;
 	flex-direction: column;
 	position: relative;
 }
 
 .div .heading {
-	padding: 0px 0px 0.59px;
 	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
 	position: relative;
-	align-self: stretch;
 	width: 100%;
-	flex: 0 0 auto;
+	font-size: 2.5vw;
+	font-weight: 600;
 }
 
-.div .text-wrapper {
+.div .text-wrapper-1 {
 	position: relative;
 	align-self: stretch;
 	margin-top: -1px;
@@ -80,37 +75,19 @@
 }
 
 .div .tablist {
-	display: flex;
-	flex-wrap: wrap;
-	align-items: flex-start;
-	justify-content: center;
-	gap: 0px 0px;
-	padding: 0px 535.09px 0px 535.08px;
-	position: relative;
-	align-self: stretch;
-	width: 100%;
-	flex: 0 0 auto;
-}
-
-.div .tab-wrapper {
-	display: inline-flex;
-	align-items: flex-start;
-	padding: 0px 3.19px;
-	align-self: stretch;
-	flex: 0 0 auto;
-	flex-direction: column;
-	position: relative;
-}
-
-.div .tab {
 	display: inline-flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 8px 40px;
 	position: relative;
-	flex: 0 0 auto;
 	background-color: #1b0324;
 	border-radius: 4px;
+	color: #ffffff;
+	font-size: 1vw;
+	text-align: center;
+	letter-spacing: 0;
+	line-height: 1vw;
+	white-space: nowrap;
+	padding: 1vw 2vw;
 }
 
 .div .div {
@@ -119,47 +96,33 @@
 	margin-top: -1px;
 	font-family: "Rubik-Regular", Helvetica;
 	font-weight: 400;
-	color: #ffffff;
-	font-size: 16px;
-	text-align: center;
-	letter-spacing: 0;
-	line-height: 24px;
-	white-space: nowrap;
 }
 
 .div .tabpanel {
 	display: flex;
-	flex-wrap: wrap;
-	min-height: 400px;
-	align-items: flex-start;
+	align-items: center;
+	justify-content: space-between;
+	height: 50vh;
 	gap: 0px 0px;
 	position: relative;
-	align-self: stretch;
 	width: 100%;
-	flex: 0 0 auto;
 }
 
 .div .background-shadow-wrapper {
 	display: flex;
-	max-width: 1320px;
-	align-items: flex-start;
-	padding: 0px 12px;
-	flex: 1;
-	align-self: stretch;
-	flex-grow: 1;
 	flex-direction: column;
 	position: relative;
+	width: 22.5%;
+	height: 100%;
 }
 
 .div .background-shadow {
 	display: flex;
 	flex-direction: column;
-	align-items: flex-start;
-	padding: 16px;
 	position: relative;
 	align-self: stretch;
 	width: 100%;
-	flex: 0 0 auto;
+	height: 100%;
 	background-color: #32103f26;
 	border-radius: 30px 0px 30px 0px;
 	overflow: hidden;
@@ -168,24 +131,20 @@
 
 .div .div-wrapper {
 	align-items: center;
-	padding: 0px 62px 17px;
-	border-bottom-width: 1px;
-	border-bottom-style: solid;
-	border-color: #dee8f8;
 	display: flex;
 	flex-direction: column;
 	position: relative;
-	align-self: stretch;
 	width: 100%;
-	flex: 0 0 auto;
+	height: 100%;
 }
 
-.div .maple-png {
+.div .div-wrapper-png {
 	position: relative;
-	max-width: 274px;
-	width: 150px;
-	height: 70px;
-	background-image: url(./img/maple-png.png);
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-color: #dee8f8;
+	width: 100%;
+	height: 15%;
 	background-size: cover;
 	background-position: 50% 50%;
 }
@@ -193,60 +152,39 @@
 .div .div-wrapper-2 {
 	display: flex;
 	flex-direction: column;
-	align-items: flex-start;
-	padding: 16px 0px 0px;
 	position: relative;
-	align-self: stretch;
-	width: 100%;
-	flex: 0 0 auto;
+	width: 90%;
+	height: 80%;
+	justify-content: space-between;
+	position: relative;
 }
 
 .div .div-2 {
-	align-items: flex-start;
-	gap: 8px;
 	display: flex;
 	flex-direction: column;
 	position: relative;
-	align-self: stretch;
 	width: 100%;
-	flex: 0 0 auto;
+	height: 80%;
+	margin-top: 5%;
+	gap: 10%;
 }
 
 .div .heading-2 {
-	min-height: 48px;
-	padding: 0px 0px 24px;
 	display: flex;
 	flex-direction: column;
-	align-items: flex-start;
 	position: relative;
-	align-self: stretch;
 	width: 100%;
-	flex: 0 0 auto;
+	margin-bottom: 10%;
 }
 
 .div .text-wrapper-2 {
 	position: relative;
-	align-self: stretch;
-	margin-top: -1px;
-	font-family: var(
-		--www-missingpersonsplatform-com-semantic-heading-5-font-family
-	);
-	font-weight: var(
-		--www-missingpersonsplatform-com-semantic-heading-5-font-weight
-	);
+	font-weight: 600;
 	color: #212529;
-	font-size: var(
-		--www-missingpersonsplatform-com-semantic-heading-5-font-size
-	);
-	letter-spacing: var(
-		--www-missingpersonsplatform-com-semantic-heading-5-letter-spacing
-	);
-	line-height: var(
-		--www-missingpersonsplatform-com-semantic-heading-5-line-height
-	);
-	font-style: var(
-		--www-missingpersonsplatform-com-semantic-heading-5-font-style
-	);
+	font-size: 2.5vmin;
+	letter-spacing: normal;
+	line-height: 2.5vmin;
+	font-style: normal;
 }
 
 .div .container-2 {
@@ -309,11 +247,9 @@
 .div .paragraph {
 	display: flex;
 	align-items: center;
-	padding: 24px 0px 0px;
 	position: relative;
-	align-self: stretch;
 	width: 100%;
-	flex: 0 0 auto;
+	max-width: 100%;
 }
 
 .div .symbol {
@@ -343,24 +279,7 @@
 
 .div .text-wrapper-4 {
 	position: relative;
-	width: fit-content;
-	margin-top: -1px;
-	font-family: var(
-		--www-missingpersonsplatform-com-rubik-regular-font-family
-	);
-	font-weight: var(
-		--www-missingpersonsplatform-com-rubik-regular-font-weight
-	);
 	color: #1b0324;
-	font-size: var(--www-missingpersonsplatform-com-rubik-regular-font-size);
-	letter-spacing: var(
-		--www-missingpersonsplatform-com-rubik-regular-letter-spacing
-	);
-	line-height: var(
-		--www-missingpersonsplatform-com-rubik-regular-line-height
-	);
-	white-space: nowrap;
-	font-style: var(--www-missingpersonsplatform-com-rubik-regular-font-style);
 }
 
 .div .component-wrapper {
@@ -436,16 +355,6 @@
 	);
 }
 
-.div .synapse-png {
-	position: relative;
-	max-width: 274px;
-	width: 150px;
-	height: 70px;
-	background-image: url(./img/synapse-png.png);
-	background-size: cover;
-	background-position: 50% 50%;
-}
-
 .div .component-2 {
 	display: inline-flex;
 	align-items: center;
@@ -498,36 +407,3 @@
 	overflow: hidden;
 	box-shadow: 0px 0px 16px -11px #000000;
 }
-
-.div .bhc-png {
-	position: relative;
-	max-width: 274px;
-	width: 150px;
-	height: 70px;
-	background-image: url(./img/bhc-png.png);
-	background-size: cover;
-	background-position: 50% 50%;
-}
-
-.div .heading-3 {
-	display: flex;
-	flex-direction: column;
-	min-height: 48px;
-	align-items: flex-start;
-	position: relative;
-	align-self: stretch;
-	width: 100%;
-	flex: 0 0 auto;
-}
-
-.div .olive-logo-png {
-	position: relative;
-	max-width: 274px;
-	width: 150px;
-	height: 70px;
-	background-image: url(./img/olive-logo-png.png);
-	background-size: cover;
-	background-position: 50% 50%;
-}
-
-@import url("./global.css");

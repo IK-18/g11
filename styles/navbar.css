@@ -1,14 +1,15 @@
 .navbar {
-	position: absolute;
 	width: 100vw;
 	height: 10vh;
-	top: 0;
-	left: 0;
 	background-color: #1b0324;
 	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
 .logo {
+	display: flex;
+	align-items: center;
 	width: 231px;
 	height: 42px;
 }
@@ -19,82 +20,19 @@
 }
 
 .text-wrapper {
-	font-family: "Poppins-Bold", Helvetica;
+	font-family: "Poppins-Bold", Helvetica !important;
 	font-weight: 700;
 	color: #d7c2df;
-	font-size: 28px;
+	font-size: 2vw;
 	letter-spacing: 0;
 	line-height: normal;
 }
 
-.text-wrapper-2 {
-	font-family: "Poppins-Medium", Helvetica;
+.link-wrapper {
+	font-family: "Poppins", Helvetica !important;
 	font-weight: 500;
 	color: #d7c2df;
-	font-size: 21px;
-	letter-spacing: 0;
-	line-height: normal;
-}
-
-.text-wrapper-3 {
-	font-family: "Poppins-Medium", Helvetica;
-	font-weight: 500;
-	color: #d7c2df;
-	font-size: 21px;
-	letter-spacing: 0;
-	line-height: normal;
-}
-
-.text-wrapper-4 {
-	font-family: "Poppins-Medium", Helvetica;
-	font-weight: 500;
-	color: #d7c2df;
-	font-size: 21px;
-	letter-spacing: 0;
-	line-height: normal;
-}
-
-.text-wrapper-5 {
-	font-family: "Poppins-Medium", Helvetica;
-	font-weight: 500;
-	color: #d7c2df;
-	font-size: 21px;
-	letter-spacing: 0;
-	line-height: normal;
-}
-
-.text-wrapper-6 {
-	font-family: "Poppins-Medium", Helvetica;
-	font-weight: 500;
-	color: #d7c2df;
-	font-size: 21px;
-	letter-spacing: 0;
-	line-height: normal;
-}
-
-.text-wrapper-7 {
-	font-family: "Poppins-Medium", Helvetica;
-	font-weight: 500;
-	color: #d7c2df;
-	font-size: 21px;
-	letter-spacing: 0;
-	line-height: normal;
-}
-
-.text-wrapper-8 {
-	font-family: "Poppins-Medium", Helvetica;
-	font-weight: 500;
-	color: #d7c2df;
-	font-size: 21px;
-	letter-spacing: 0;
-	line-height: normal;
-}
-
-.text-wrapper-9 {
-	font-family: "Poppins-Medium", Helvetica;
-	font-weight: 500;
-	color: #d7c2df;
-	font-size: 21px;
+	font-size: 1vw;
 	letter-spacing: 0;
 	line-height: normal;
 }
@@ -102,6 +40,9 @@
 .get-started {
 	width: 183px;
 	height: 57px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	border-radius: 12px;
 	background: linear-gradient(
 		90deg,
@@ -111,7 +52,7 @@
 }
 
 .text-wrapper-10 {
-	font-family: "Poppins-Medium", Helvetica;
+	font-family: "Poppins", Helvetica !important;
 	font-weight: 500;
 	color: #d7c2df;
 	font-size: 18px;

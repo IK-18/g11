@@ -1,3 +1,5 @@
+@import url("./global.css");
+
 .div .section {
 	justify-content: center;
 	background-color: #fcfcfc;
@@ -861,5 +863,3 @@
 	align-items: flex-start;
 	position: relative;
 }
-
-@import url('./global.css')

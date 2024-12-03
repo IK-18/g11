@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html>
-<?php include './views/head.php' ?>
+<?php include '../views/head.php' ?>
 
 <body>
 	<div class="desktop">
 		<div class="div">
-			<?php include './views/navbar.php' ?>
+			<?php include '../views/navbar.php' ?>
 			<div class="section">
 				<div class="faq-jpg"></div>
 			</div>
 			<div class="container-wrapper">
 				<div class="container">
+					<?php session_start() ?>
 					<div class="heading">
 						<div class="text-wrapper">Freqently Asked Questions (FAQ)</div>
 					</div>
@@ -212,7 +213,7 @@
 					</div>
 				</div>
 			</div>
-			<?php include './views/footer.html' ?>
+			<?php include '../views/footer.html' ?>
 		</div>
 	</div>
 </body>
