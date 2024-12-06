@@ -2,6 +2,7 @@
 	position: relative;
 	width: 100vw;
 	height: 15vh;
+	bottom: 0;
 }
 
 .desktop .overlap-3 {

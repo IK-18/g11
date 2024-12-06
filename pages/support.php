@@ -1,39 +1,50 @@
 <?php session_start() ?>
-<!DOCTYPE html>
-<html>
-<?php include '../views/head.php' ?>
+<div class="section">
+	<img src="http://localhost/images/volunteer-bg-jpg.png" class="bg volunteer-bg-jpg"></img>
+</div>
+<div class="container-wrapper">
+	<div class="container">
+		<div class="heading">
+			<div class="text-wrapper-1">Can you help us?</div>
+		</div>
+		<div class="div-cont">
+			<div class="component-wrapper">
+				<a href="http://localhost/pages/volunteer.php" onclick='
+	event.preventDefault();
+	let link = document.querySelector("#dynamic_link");
+	link.href = "http:\/\/localhost/styles/volunteer.css"
+	document.title = "Volunteer";
+	fetch("http:\/\/localhost/pages/volunteer.php").then(res => res.text()).then((res) => {
+		let cont = document.querySelector(".div");
+		cont.innerHTML = res;
+	});
+	history.pushState({path: "volunteer"}, "", "volunteer");
+	' class="component">
+					<div class="component-png">
+						<img class="component-img" src="http://localhost/images/volunteer.png" alt="">
+					</div>
+					<div class="text">Volunteer/Partner</div>
+				</a>
+			</div>
+			<div class="component-wrapper">
+				<a href="http://localhost/pages/donate.php" onclick='
+	event.preventDefault();
+	let link = document.querySelector("#dynamic_link");
+	link.href = "http:\/\/localhost/styles/donate.css"
+	document.title = "Donate";
+	fetch("http:\/\/localhost/pages/Donate.php").then(res => res.text()).then((res) => {
+		let cont = document.querySelector(".div");
+		cont.innerHTML = res;
+	});
 
-<body>
-	<div class="desktop">
-		<div class="div">
-			<?php include '../views/navbar.php' ?>
-			<div class="section">
-				<div class="volunteer-bg-jpg"></div>
-			</div>
-			<div class="container-wrapper">
-				<div class="container">
-					<div class="heading">
-						<div class="text-wrapper-1">Can you help us?</div>
+	history.pushState({path: "Donate"}, "", "Donate");
+	' class="component">
+					<div class="component-png">
+						<img class="component-img" src="http://localhost/images/donate.png" alt="">
 					</div>
-					<div class="div-cont">
-						<div class="component-wrapper">
-							<a href="http://localhost/pages/volunteer.php" class="component">
-								<div class="component-png"></div>
-								<div class="text">Volunteer/Partner</div>
-							</a>
-						</div>
-						<div class="component-wrapper">
-							<a href="http://localhost/pages/donate.php" class="component">
-								<div class="component-png"></div>
-								<div class="text">Donate Resources</div>
-							</a>
-						</div>
-					</div>
-				</div>
+					<div class="text">Donate Resources</div>
+				</a>
 			</div>
-			<?php include '../views/footer.html' ?>
 		</div>
 	</div>
-</body>
-
-</html>
+</div>

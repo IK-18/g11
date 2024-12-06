@@ -1,27 +1,3 @@
-@import url("./global.css");
-
-.div .section {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	position: relative;
-	align-self: stretch;
-	width: 100vw;
-	height: 50vh;
-	flex: 0 0 auto;
-	background-color: #f8f9fa;
-	box-shadow: 0px 2px 4px #00000013;
-}
-
-.div .search-jpg {
-	position: relative;
-	width: 100vw;
-	height: 50vh;
-	background-image: url(./img/search-jpg.png);
-	background-size: cover;
-	background-position: 50% 50%;
-}
-
 .div .form-section {
 	position: relative;
 	align-self: stretch;
@@ -84,7 +60,7 @@
 	max-width: 380px;
 	width: 372px;
 	height: 673.55px;
-	background-image: url(./img/167051854316350660255-search-poster-jpg.png);
+	background-image: url(http://localhost/images/167051854316350660255-search-poster-jpg.png);
 	background-size: cover;
 	background-position: 50% 50%;
 }
@@ -123,7 +99,7 @@
 	max-width: 380px;
 	width: 372px;
 	height: 673.55px;
-	background-image: url(./img/168205579716350660265-search-poster-jpg.png);
+	background-image: url(http://localhost/images/168205579716350660265-search-poster-jpg.png);
 	background-size: cover;
 	background-position: 50% 50%;
 }
@@ -140,7 +116,7 @@
 	max-width: 380px;
 	width: 372px;
 	height: 673.55px;
-	background-image: url(./img/169601154016350660292-search-poster-jpg.png);
+	background-image: url(http://localhost/images/169601154016350660292-search-poster-jpg.png);
 	background-size: cover;
 	background-position: 50% 50%;
 }
@@ -220,19 +196,6 @@
 	white-space: nowrap;
 	font-style: normal;
 	padding: 0 5%;
-}
-
-.div .text-wrapper {
-	position: relative;
-	width: fit-content;
-	font-family: "Poppins", Helvetica;
-	font-weight: 500;
-	color: #212529;
-	font-size: 0.5vw;
-	letter-spacing: normal;
-	line-height: 1vw;
-	white-space: nowrap;
-	font-style: normal;
 }
 
 .div .container-3 {
@@ -325,7 +288,7 @@
 	position: relative;
 	width: 100%;
 	height: 100%;
-	background-image: url(./img/person-info-jpg.png);
+	background-image: url(http://localhost/images/person-info-jpg.png);
 	background-size: cover;
 	background-position: 50% 50%;
 }

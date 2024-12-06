@@ -5,6 +5,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	position: relative;
 }
 
 .logo {
@@ -35,6 +36,7 @@
 	font-size: 1vw;
 	letter-spacing: 0;
 	line-height: normal;
+	position: relative;
 }
 
 .get-started {
@@ -58,4 +60,44 @@
 	font-size: 18px;
 	letter-spacing: 0;
 	line-height: normal;
+}
+
+.dropdown {
+	position: relative;
+	display: flex;
+}
+
+.dropdown .subs {
+	position: absolute;
+	opacity: 0;
+	transition: all 0.3s ease-in-out;
+	flex-direction: column;
+	background: linear-gradient(
+		0deg,
+		rgb(102.45, 11.35, 138.47) 0%,
+		rgb(26.98, 2.99, 36.47) 80%
+	);
+	z-index: 999;
+	transition-behavior: allow-discrete;
+	top: 100%;
+	left: -50%;
+	min-height: 12.5vh;
+	min-width: 10vw;
+	padding: 20%;
+	align-items: center;
+	justify-content: space-evenly;
+	box-sizing: border-box;
+	display: none;
+	border-radius: 0 0 5% 5%;
+}
+
+.link-wrapper:hover + .subs,
+.subs:hover {
+	opacity: 1;
+	display: flex;
+}
+
+.subs .link-wrapper {
+	white-space: nowrap;
+	display: inline-block;
 }

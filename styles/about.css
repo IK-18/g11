@@ -1,26 +1,3 @@
-@import url("./global.css");
-
-.div .section {
-	justify-content: center;
-	background-color: #fcfcfc;
-	box-shadow: 0px 2px 4px #00000013;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	position: relative;
-	width: 100vw;
-	height: 50vh;
-}
-
-.div .who-jpg {
-	position: relative;
-	width: 100%;
-	height: 100%;
-	background-image: url(./img/contact-jpg.png);
-	background-size: cover;
-	background-position: 50% 50%;
-}
-
 .div .div-cont {
 	position: relative;
 	max-width: 1320px;
