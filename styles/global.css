@@ -44,6 +44,10 @@ a:visited {
 	text-decoration: none;
 }
 
+button:hover {
+	cursor: pointer;
+}
+
 .desktop {
 	background-color: #e3e3e3;
 	display: flex;

@@ -11,13 +11,12 @@
 .logo {
 	display: flex;
 	align-items: center;
-	width: 231px;
-	height: 42px;
+	height: 50%;
 }
 
 .security-shield {
-	width: 47px;
-	height: 42px;
+	width: 5vh;
+	height: 70%;
 }
 
 .text-wrapper {
@@ -40,8 +39,8 @@
 }
 
 .get-started {
-	width: 183px;
-	height: 57px;
+	width: 12.5%;
+	height: 75%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -53,6 +52,14 @@
 	);
 }
 
+.user-get-started {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 .text-wrapper-10 {
 	font-family: "Poppins", Helvetica !important;
 	font-weight: 500;
@@ -60,6 +67,10 @@
 	font-size: 18px;
 	letter-spacing: 0;
 	line-height: normal;
+}
+
+.user-get-started {
+	cursor: default;
 }
 
 .dropdown {
@@ -91,7 +102,32 @@
 	border-radius: 0 0 5% 5%;
 }
 
+.user_dropdown .subs {
+	position: absolute;
+	opacity: 0;
+	transition: all 0.3s ease-in-out;
+	flex-direction: column;
+	background: linear-gradient(
+		0deg,
+		rgb(102.45, 11.35, 138.47) 0%,
+		rgb(26.98, 2.99, 36.47) 80%
+	);
+	z-index: 999;
+	transition-behavior: allow-discrete;
+	top: 100%;
+	min-height: 12.5vh;
+	min-width: 10vw;
+	padding: 1%;
+	align-items: center;
+	justify-content: space-evenly;
+	box-sizing: border-box;
+	display: none;
+	border-radius: 0 0 5% 5%;
+}
+
 .link-wrapper:hover + .subs,
+.user-get-started:hover + .subs,
+.user-get-started .subs:hover,
 .subs:hover {
 	opacity: 1;
 	display: flex;

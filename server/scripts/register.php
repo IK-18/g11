@@ -29,4 +29,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 $conn->close();
 $_SESSION['username'] = $username;
+header('Location: /user');
 ?>

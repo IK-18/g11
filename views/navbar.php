@@ -44,8 +44,15 @@
 		</a>
 	<?php else: ?>
 		<?php $username = $_SESSION['username']; ?>
-		<a href="/user" class="get-started">
-			<div class="text-wrapper-10">Hi <?php echo $username ?> !</div>
-		</a>
+		<div class="user_dropdown get-started">
+			<div class="user-get-started">
+				<div class="text-wrapper-10">Hi <?php echo $username ?> !</div>
+			</div>
+			<div class="subs">
+				<a href="http://localhost/user" class="link-wrapper">Reports and Data</a>
+				<a href="http://localhost/profile" class="link-wrapper">Profile</a>
+				<a href="http://localhost/server/scripts/logout.php" class="link-wrapper">Logout</a>
+			</div>
+		</div>
 	<?php endif; ?>
 </div>

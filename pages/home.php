@@ -101,7 +101,7 @@
 			missing persons in Africa,<br />worsening cases of insecurity and conflicts.</p>
 	</div>
 	<div class="component-3">
-		<a href="http://localhost/volunteer" target="_blank" rel="noopener noreferrer">
+		<a href="http://localhost/support" target="_blank" rel="noopener noreferrer">
 			<div class="text-2">What can you do?</div>
 		</a>
 	</div>
