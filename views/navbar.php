@@ -46,7 +46,7 @@
 		<?php $username = $_SESSION['username']; ?>
 		<div class="user_dropdown get-started">
 			<div class="user-get-started">
-				<div class="text-wrapper-10">Hi <?php echo $username ?> !</div>
+				<div class="text-wrapper-10">Hi <?php echo $username ?>!</div>
 			</div>
 			<div class="subs">
 				<a href="http://localhost/user" class="link-wrapper">Reports and Data</a>

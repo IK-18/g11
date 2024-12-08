@@ -13,10 +13,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 	if ($stmt->execute()) {
 		$stmt->close();
 		$conn->close();
-		header('Location: /profile');
+		header('Location: /profile?success');
 	}
 	;
 	echo 'Error while updating details';
 	$stmt->close();
 	$conn->close();
+	header('Location: /profile?failed');
 }

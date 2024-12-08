@@ -22,12 +22,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 		echo "Registration successful!";
 		$user_id = $conn->insert_id;
 		$_SESSION['user_id'] = $user_id;
+		$_SESSION['username'] = $username;
+		$stmt->close();
+		$conn->close();
+		header('Location: /user');
 	} else {
 		echo "Error: " . $stmt->error;
+		$stmt->close();
+		$conn->close();
+		header('Location: /home?modal=signup');
 	}
-	$stmt->close();
 }
-$conn->close();
-$_SESSION['username'] = $username;
-header('Location: /user');
 ?>

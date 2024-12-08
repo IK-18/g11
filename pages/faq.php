@@ -7,48 +7,7 @@
 		<div class="heading">
 			<div class="text-wrapper-1">Freqently Asked Questions (FAQ)</div>
 		</div>
-		<div class="div-wrapper">
-			<div class="div-cont">
-				<div class="container-2">
-					<div class="input"><input class="container-3" placeholder="Search" type="text" /></div>
-					<button class="button-margin">
-						<div class="component">
-							<div class="text">Search</div>
-						</div>
-					</button>
-					<div class="component-wrapper">
-						<div class="component-2">
-							<div class="text-2">Clear</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
 		<div class="container-4">
-			<div class="tablist-wrapper">
-				<div class="tablist">
-					<div class="overlap-group">
-						<div class="component-3">
-							<a href="https://www.missingpersonsplatform.com/faq#list-profile" target="_blank"
-								rel="noopener noreferrer">
-								<div class="text-3">Filing A Missing Person</div>
-							</a>
-						</div>
-						<div class="component-4">
-							<a href="https://www.missingpersonsplatform.com/faq#list-messages" target="_blank"
-								rel="noopener noreferrer">
-								<div class="text-3">Working with us/ Volunteering</div>
-							</a>
-						</div>
-						<div class="component-5">
-							<a href="https://www.missingpersonsplatform.com/faq#list-home" target="_blank"
-								rel="noopener noreferrer">
-								<div class="text-4">General &amp; Definitions</div>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
 			<div class="tabpanel-wrapper">
 				<div class="tabpanel">
 					<div class="background-border">

@@ -11,12 +11,13 @@
 .logo {
 	display: flex;
 	align-items: center;
-	height: 50%;
+	width: 231px;
+	height: 42px;
 }
 
 .security-shield {
-	width: 5vh;
-	height: 70%;
+	width: 47px;
+	height: 42px;
 }
 
 .text-wrapper {
@@ -38,9 +39,14 @@
 	position: relative;
 }
 
-.get-started {
+.navbar .get-started {
 	width: 12.5%;
 	height: 75%;
+}
+
+.get-started {
+	width: 183px;
+	height: 57px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -102,6 +108,10 @@
 	border-radius: 0 0 5% 5%;
 }
 
+.user_dropdown {
+	position: relative;
+}
+
 .user_dropdown .subs {
 	position: absolute;
 	opacity: 0;
@@ -116,7 +126,7 @@
 	transition-behavior: allow-discrete;
 	top: 100%;
 	min-height: 12.5vh;
-	min-width: 10vw;
+	min-width: 100%;
 	padding: 1%;
 	align-items: center;
 	justify-content: space-evenly;
@@ -127,7 +137,7 @@
 
 .link-wrapper:hover + .subs,
 .user-get-started:hover + .subs,
-.user-get-started .subs:hover,
+.user-get-started + .subs:hover,
 .subs:hover {
 	opacity: 1;
 	display: flex;

@@ -119,12 +119,14 @@
 	align-items: center;
 	position: relative;
 	width: 100%;
+	padding: 0 5%;
+	box-sizing: border-box;
 }
 
 .desktop .text-wrapper-13 {
 	position: relative;
 	color: #1b0324;
-	font-size: 1.3vw;
+	font-size: 1.8vw;
 	font-weight: 600;
 	text-align: center;
 }
@@ -133,7 +135,7 @@
 	position: relative;
 	width: fit-content;
 	color: #212529;
-	font-size: 1vw;
+	font-size: 1.4vw;
 	text-align: center;
 }
 
@@ -200,28 +202,11 @@
 }
 
 .desktop .upload-information {
-	margin-left: -0.4px;
-	margin-right: -0.4px;
 	position: relative;
 	width: fit-content;
-	font-family: var(
-		--www-missingpersonsplatform-com-rubik-regular-15-font-family
-	);
-	font-weight: var(
-		--www-missingpersonsplatform-com-rubik-regular-15-font-weight
-	);
 	color: #212529;
-	font-size: var(--www-missingpersonsplatform-com-rubik-regular-15-font-size);
+	font-size: 1.4vw;
 	text-align: center;
-	letter-spacing: var(
-		--www-missingpersonsplatform-com-rubik-regular-15-letter-spacing
-	);
-	line-height: var(
-		--www-missingpersonsplatform-com-rubik-regular-15-line-height
-	);
-	font-style: var(
-		--www-missingpersonsplatform-com-rubik-regular-15-font-style
-	);
 }
 
 .desktop .overlap-group-wrapper {
@@ -297,51 +282,12 @@
 	flex: 0 0 auto;
 }
 
-.desktop .i-found-someone-but {
-	position: relative;
-	align-self: stretch;
-	margin-top: -1px;
-	font-family: var(
-		--www-missingpersonsplatform-com-rubik-medium-20-font-family
-	);
-	font-weight: var(
-		--www-missingpersonsplatform-com-rubik-medium-20-font-weight
-	);
-	color: #0054a6;
-	font-size: var(--www-missingpersonsplatform-com-rubik-medium-20-font-size);
-	text-align: center;
-	letter-spacing: var(
-		--www-missingpersonsplatform-com-rubik-medium-20-letter-spacing
-	);
-	line-height: var(
-		--www-missingpersonsplatform-com-rubik-medium-20-line-height
-	);
-	font-style: var(
-		--www-missingpersonsplatform-com-rubik-medium-20-font-style
-	);
-}
-
 .desktop .upload-information-2 {
 	position: relative;
 	width: fit-content;
-	font-family: var(
-		--www-missingpersonsplatform-com-rubik-regular-15-font-family
-	);
-	font-weight: var(
-		--www-missingpersonsplatform-com-rubik-regular-15-font-weight
-	);
 	color: #212529;
-	font-size: var(--www-missingpersonsplatform-com-rubik-regular-15-font-size);
+	font-size: 1.4vw;
 	text-align: center;
-	letter-spacing: var(
-		--www-missingpersonsplatform-com-rubik-regular-15-letter-spacing
-	);
-	line-height: var(
-		--www-missingpersonsplatform-com-rubik-regular-15-line-height
-	);
-	font-style: var(
-		--www-missingpersonsplatform-com-rubik-regular-15-font-style
-	);
 }
 
 .desktop .right-png-3 {

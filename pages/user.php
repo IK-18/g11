@@ -26,7 +26,7 @@ $stmt->close();
 		</thead>
 		<tbody>
 			<?php if ($reports->num_rows > 0) {
-				while ($row = $records->fetch_assoc()) {
+				while ($row = $reports->fetch_assoc()) {
 					echo '<tr>';
 					echo '<td>' . $row['id'] . '</td>';
 					echo '<td>' . $row['name'] . '</td>';
@@ -50,8 +50,8 @@ $stmt->close();
 			</tr>
 		</thead>
 		<tbody>
-			<?php if ($reports->num_rows > 0) {
-				while ($row = $records->fetch_assoc()) {
+			<?php if ($donations->num_rows > 0) {
+				while ($row = $donations->fetch_assoc()) {
 					echo '<tr>';
 					echo '<td>' . $row['id'] . '</td>';
 					echo '<td>' . $row['amount'] . '</td>';

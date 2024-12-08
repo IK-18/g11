@@ -64,8 +64,8 @@
 		<div class="recruitment-png"></div>
 		<div class="container">
 			<div class="text-wrapper-13">I&#39;m looking for someone</div>
-			<p class="search-the-missing">Search the missing Persons Project Database
-				for<br />someone</p>
+			<p class="search-the-missing">Search the ReportTerror Database
+				for someone</p>
 		</div>
 	</div>
 	<div class="component">
@@ -74,8 +74,8 @@
 			<p class="text-wrapper-13">I want to register someone missing</p>
 			<p class="upload-information">
 				Upload information of a missing loved one or
-				friend.<br />Provide details- last know
-				whereabouts, Physical<br />Appearance etc.
+				friend. Provide details- last know
+				whereabouts, Physical Appearance etc.
 			</p>
 		</div>
 	</div>
@@ -87,8 +87,8 @@
 			</p>
 			<p class="upload-information-2">
 				Upload information about someone You&#39;ve
-				found but<br />unable to ascertain their
-				identity. Increase the chances<br />of their
+				found but unable to ascertain their
+				identity. Increase the chances of their
 				loved ones finding them.
 			</p>
 		</div>

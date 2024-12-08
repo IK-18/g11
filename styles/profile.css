@@ -3,11 +3,55 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	padding: 2% 0;
+	position: relative;
+}
+
+.status {
+	position: relative;
+	top: 5px;
+	left: auto;
+	height: 2vh;
+}
+
+.success {
+	background-color: lightgreen;
+	color: green;
+	border: 1px solid;
+	border-color: green;
+}
+
+.failed {
+	background-color: lightcoral;
+	color: red;
+	border: 1px solid;
+	border-color: red;
 }
 
 .div .heading {
 	align-items: center;
 	margin-bottom: 1%;
+}
+
+.container-6 {
+	display: flex;
+	width: 100%;
+	height: 20%;
+	flex-direction: column;
+	position: relative;
+}
+
+form {
+	border-radius: 5%;
+	background-color: white;
+	width: 50%;
+	height: 60vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	padding: 2% 3%;
+	box-sizing: border-box;
 }
 
 .input {
@@ -50,6 +94,19 @@
 	width: 100%;
 }
 
+.button-cont {
+	display: flex;
+	height: 10%;
+	width: 100%;
+	justify-content: center;
+	gap: 15%;
+}
+
+.button-cont .submit {
+	width: 30%;
+	height: 100%;
+}
+
 .submit {
 	display: flex;
 	align-items: center;
@@ -61,4 +118,8 @@
 	background-color: #1b0324;
 	border-radius: 30px;
 	font-size: 1.3vw;
+}
+
+.profile_submit {
+	display: none;
 }

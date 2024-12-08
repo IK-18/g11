@@ -42,7 +42,6 @@
 				let tempDiv = document.createElement('div')
 				tempDiv.innerHTML = res;
 				let scripts = tempDiv.querySelectorAll('script')
-				console.log(scripts)
 				scripts.forEach(script => eval(script.innerHTML))
 			});
 			<?php if (!isset($_SESSION['user_id']) || !isset($_SESSION['username'])): ?>

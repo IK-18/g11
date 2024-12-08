@@ -75,3 +75,71 @@
 .flow {
 	margin: 2% 0;
 }
+
+.form {
+	height: 80vh;
+	width: 60%;
+}
+
+.container-6 {
+	height: 5%;
+}
+
+.drag-and-drop {
+	border: 2px dashed #1b0324;
+	border-radius: 25px;
+	height: 35%;
+	width: 100%;
+	padding: 2%;
+	text-align: center;
+	color: #1b0324;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 5%;
+}
+
+.drag-and-drop:hover {
+	border: 3px dashed #1b0324;
+}
+
+.drag-and-drop.dragover {
+	border: 4px solid #1b0324;
+	background-color: #a010d454;
+	color: white;
+}
+
+.drag-and-drop .text-wrapper-17 {
+	font-size: 1.3vw;
+	color: #1b0324;
+}
+
+.drag-and-drop .text-wrapper-17:hover {
+	text-decoration: underline;
+}
+
+.drag-and-drop img {
+	height: 40%;
+}
+
+.file-input {
+	display: none;
+}
+
+.preview {
+	color: #1b0324;
+}
+
+.submit {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 30%;
+	height: 10%;
+	color: white;
+	text-align: center;
+	background-color: #1b0324;
+	border-radius: 30px;
+	font-size: 1.3vw;
+}
