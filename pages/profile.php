@@ -16,7 +16,7 @@ $user = $stmt->get_result()->fetch_assoc();
 		<?php endif; ?>
 	<?php endif; ?>
 	<header class="heading">Profile Info</header>
-	<form method="post" action="http://localhost/server/scripts/change_details.php">
+	<form method="post" action="/server/scripts/change_details.php">
 		<div class="container-6">
 			<label class="text-wrapper-17">Username</label>
 			<?php echo '<input name="username" value=' . $user['username'] . ' class="info_value input" disabled >' ?>
@@ -39,7 +39,7 @@ $user = $stmt->get_result()->fetch_assoc();
 		</div>
 	</form>
 	<header class="heading">Change Password</header>
-	<form method="post" action="http://localhost/server/scripts/change_password.php">
+	<form method="post" action="/server/scripts/change_password.php">
 		<div class="container-6">
 			<label class="text-wrapper-17">Old Password</label>
 			<div class="input-cont">
@@ -53,7 +53,7 @@ $user = $stmt->get_result()->fetch_assoc();
 				} else {
 					toggle.src = 'http:\/\/localhost/vectors/eye.svg';
 					input.type = 'password';
-				}" class="pass_toggle"><img id="old_toggle" src="http://localhost/vectors/eye.svg" alt="">
+				}" class="pass_toggle"><img id="old_toggle" src="/vectors/eye.svg" alt="">
 				</div>
 			</div>
 		</div>
@@ -73,7 +73,7 @@ $user = $stmt->get_result()->fetch_assoc();
 					toggle.src = 'http:\/\/localhost/vectors/eye.svg';
 					input.type = 'password';
 					confirm.type = 'password'
-				}" class="pass_toggle"><img id="toggle" src="http://localhost/vectors/eye.svg" alt="">
+				}" class="pass_toggle"><img id="toggle" src="/vectors/eye.svg" alt="">
 				</div>
 			</div>
 		</div>

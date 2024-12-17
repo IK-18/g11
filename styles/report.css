@@ -77,7 +77,7 @@
 }
 
 .form {
-	height: 80vh;
+	height: 85vh;
 	width: 60%;
 }
 
@@ -88,7 +88,7 @@
 .drag-and-drop {
 	border: 2px dashed #1b0324;
 	border-radius: 25px;
-	height: 35%;
+	height: 30%;
 	width: 100%;
 	padding: 2%;
 	text-align: center;
@@ -135,11 +135,11 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	width: 30%;
-	height: 10%;
+	width: 20%;
+	height: 7.5%;
 	color: white;
 	text-align: center;
 	background-color: #1b0324;
 	border-radius: 30px;
-	font-size: 1.3vw;
+	font-size: 1vw;
 }

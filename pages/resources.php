@@ -1,6 +1,6 @@
 <?php session_start() ?>
 <div class="section">
-	<img src="http://localhost/images/help-jpg.png" class="bg help-jpg"></img>
+	<img src="/images/help-jpg.png" class="bg help-jpg"></img>
 </div>
 <div class="container-wrapper">
 	<div class="container">
@@ -30,7 +30,7 @@
 					<p class="text-wrapper-3">
 						The sooner you notify the authorities that your loved one has gone missing, the
 						sooner they can begin searching. To find the nearest police station to you, visit
-						our <a href="http://localhost/find_a_station">Find A Station</a> page.
+						our <a href="/find_a_station">Find A Station</a> page.
 						Once you have identified the closest police station, make a report at the police
 						station. You should be aware of the police's limitations, especially if the missing
 						person is an adult. A person going missing is not usually illegal.
@@ -162,7 +162,7 @@
 			<div class="container-2"></div>
 			<div class="div-cont">
 				<p class="text-wrapper-7">To register a missing person and access support, click <a
-						href="http://localhost/report">here</a>.</p>
+						href="/report">here</a>.</p>
 			</div>
 			<div class="container-5">
 				<p class="text-wrapper-15">Once listed, a poster is generated.</p>

@@ -1,6 +1,6 @@
 <?php session_start() ?>
 <div class="section">
-	<img src="http://localhost/images/volunteer-bg-jpg.png" class="bg volunteer-bg-jpg"></img>
+	<img src="/images/volunteer-bg-jpg.png" class="bg volunteer-bg-jpg"></img>
 </div>
 <div class="container-wrapper">
 	<div class="container">
@@ -9,7 +9,7 @@
 		</div>
 		<div class="div-cont">
 			<div class="component-wrapper">
-				<a href="http://localhost/pages/volunteer.php" onclick='
+				<a href="/pages/volunteer.php" onclick='
 	event.preventDefault();
 	let link = document.querySelector("#dynamic_link");
 	link.href = "http:\/\/localhost/styles/volunteer.css"
@@ -21,13 +21,13 @@
 	history.pushState({path: "volunteer"}, "", "volunteer");
 	' class="component">
 					<div class="component-png">
-						<img class="component-img" src="http://localhost/images/volunteer.png" alt="">
+						<img class="component-img" src="/images/volunteer.png" alt="">
 					</div>
 					<div class="text">Volunteer/Partner</div>
 				</a>
 			</div>
 			<div class="component-wrapper">
-				<a href="http://localhost/pages/donate.php" onclick='
+				<a href="/pages/donate.php" onclick='
 	event.preventDefault();
 	let link = document.querySelector("#dynamic_link");
 	link.href = "http:\/\/localhost/styles/donate.css"
@@ -40,7 +40,7 @@
 	history.pushState({path: "Donate"}, "", "Donate");
 	' class="component">
 					<div class="component-png">
-						<img class="component-img" src="http://localhost/images/donate.png" alt="">
+						<img class="component-img" src="/images/donate.png" alt="">
 					</div>
 					<div class="text">Donate Resources</div>
 				</a>

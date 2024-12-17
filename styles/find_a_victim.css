@@ -60,7 +60,7 @@
 	max-width: 380px;
 	width: 372px;
 	height: 673.55px;
-	background-image: url(http://localhost/images/167051854316350660255-search-poster-jpg.png);
+	background-image: url(/images/167051854316350660255-search-poster-jpg.png);
 	background-size: cover;
 	background-position: 50% 50%;
 }
@@ -83,9 +83,8 @@
 }
 
 .div .component-2 {
-	display: inline-flex;
+	display: flex;
 	flex-direction: column;
-	align-items: flex-start;
 	justify-content: center;
 }
 
@@ -99,7 +98,7 @@
 	max-width: 380px;
 	width: 372px;
 	height: 673.55px;
-	background-image: url(http://localhost/images/168205579716350660265-search-poster-jpg.png);
+	background-image: url(/images/168205579716350660265-search-poster-jpg.png);
 	background-size: cover;
 	background-position: 50% 50%;
 }
@@ -116,7 +115,7 @@
 	max-width: 380px;
 	width: 372px;
 	height: 673.55px;
-	background-image: url(http://localhost/images/169601154016350660292-search-poster-jpg.png);
+	background-image: url(/images/169601154016350660292-search-poster-jpg.png);
 	background-size: cover;
 	background-position: 50% 50%;
 }
@@ -288,7 +287,7 @@
 	position: relative;
 	width: 100%;
 	height: 100%;
-	background-image: url(http://localhost/images/person-info-jpg.png);
+	background-image: url(/images/person-info-jpg.png);
 	background-size: cover;
 	background-position: 50% 50%;
 }

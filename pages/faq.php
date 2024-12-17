@@ -1,6 +1,6 @@
 <?php session_start() ?>
 <div class="section">
-	<img src="http://localhost/images/faq-jpg.png" class="bg faq-jpg"></img>
+	<img src="/images/faq-jpg.png" class="bg faq-jpg"></img>
 </div>
 <div class="container-wrapper">
 	<div class="container">
@@ -14,8 +14,7 @@
 						<div class="heading-button">
 							<p class="p">What is the role of the Missing Person’s Platform team?</p>
 							<div class="image">
-								<div class="image-fill"><img class="img"
-										src="http://localhost/images/component-3.svg" /></div>
+								<div class="image-fill"><img class="img" src="/images/component-3.svg" /></div>
 							</div>
 						</div>
 						<div class="container-5">
@@ -37,8 +36,7 @@
 							<p class="text-wrapper-3">Do you charge for your services?</p>
 							<div class="margin">
 								<div class="image-fill-wrapper">
-									<div class="image-fill"><img class="component-6"
-											src="http://localhost/images/image.svg" />
+									<div class="image-fill"><img class="component-6" src="/images/image.svg" />
 									</div>
 								</div>
 							</div>
@@ -50,8 +48,7 @@
 								packages?</p>
 							<div class="image-wrapper">
 								<div class="image-2">
-									<div class="image-fill"><img class="component-6"
-											src="http://localhost/images/image.svg" />
+									<div class="image-fill"><img class="component-6" src="/images/image.svg" />
 									</div>
 								</div>
 							</div>
@@ -62,8 +59,7 @@
 							<p class="text-wrapper-3">Is there a database of missing persons in Nigeria?</p>
 							<div class="margin-2">
 								<div class="image-3">
-									<div class="image-fill"><img class="component-6"
-											src="http://localhost/images/image.svg" />
+									<div class="image-fill"><img class="component-6" src="/images/image.svg" />
 									</div>
 								</div>
 							</div>
@@ -74,8 +70,7 @@
 							<p class="text-wrapper-3">Who is a missing person, unidentified person, etc.</p>
 							<div class="margin-3">
 								<div class="image-4">
-									<div class="image-fill"><img class="component-6"
-											src="http://localhost/images/image.svg" />
+									<div class="image-fill"><img class="component-6" src="/images/image.svg" />
 									</div>
 								</div>
 							</div>
@@ -87,8 +82,7 @@
 								missing?</p>
 							<div class="margin-4">
 								<div class="image-5">
-									<div class="image-fill"><img class="component-6"
-											src="http://localhost/images/image.svg" />
+									<div class="image-fill"><img class="component-6" src="/images/image.svg" />
 									</div>
 								</div>
 							</div>
@@ -100,8 +94,7 @@
 							</p>
 							<div class="margin-5">
 								<div class="image-6">
-									<div class="image-fill"><img class="component-6"
-											src="http://localhost/images/image.svg" />
+									<div class="image-fill"><img class="component-6" src="/images/image.svg" />
 									</div>
 								</div>
 							</div>
@@ -112,8 +105,7 @@
 							<p class="text-wrapper-3">What do I do when I cannot find someone?</p>
 							<div class="margin-6">
 								<div class="image-7">
-									<div class="image-fill"><img class="component-6"
-											src="http://localhost/images/image.svg" />
+									<div class="image-fill"><img class="component-6" src="/images/image.svg" />
 									</div>
 								</div>
 							</div>
@@ -124,8 +116,7 @@
 							<p class="text-wrapper-3">What do I do when I see a missing person?</p>
 							<div class="margin-7">
 								<div class="image-8">
-									<div class="image-fill"><img class="component-6"
-											src="http://localhost/images/image.svg" />
+									<div class="image-fill"><img class="component-6" src="/images/image.svg" />
 									</div>
 								</div>
 							</div>
@@ -137,8 +128,7 @@
 								me or returns?</p>
 							<div class="margin-8">
 								<div class="image-9">
-									<div class="image-fill"><img class="component-6"
-											src="http://localhost/images/image.svg" />
+									<div class="image-fill"><img class="component-6" src="/images/image.svg" />
 									</div>
 								</div>
 							</div>
@@ -151,8 +141,7 @@
 							</p>
 							<div class="margin-9">
 								<div class="image-10">
-									<div class="image-fill"><img class="component-6"
-											src="http://localhost/images/image.svg" />
+									<div class="image-fill"><img class="component-6" src="/images/image.svg" />
 									</div>
 								</div>
 							</div>
@@ -164,8 +153,7 @@
 							</p>
 							<div class="margin-10">
 								<div class="image-11">
-									<div class="image-fill"><img class="component-6"
-											src="http://localhost/images/image.svg" />
+									<div class="image-fill"><img class="component-6" src="/images/image.svg" />
 									</div>
 								</div>
 							</div>

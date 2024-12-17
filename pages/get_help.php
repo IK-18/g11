@@ -1,6 +1,6 @@
 <?php session_start() ?>
 <div class="section">
-	<img src="http://localhost/images/psychologists-jpg.png" class="bg psychologists-jpg"></img>
+	<img src="/images/psychologists-jpg.png" class="bg psychologists-jpg"></img>
 </div>
 <div class="container-wrapper">
 	<div class="container">
@@ -14,7 +14,7 @@
 			<div class="background-shadow-wrapper">
 				<div class="background-shadow">
 					<div class="div-wrapper">
-						<img src="http://localhost/images/maple.png" class="div-wrapper-png" />
+						<img src="/images/maple.png" class="div-wrapper-png" />
 						<div class="div-wrapper-2">
 							<div class="div-2">
 								<div class="heading-2">
@@ -55,7 +55,7 @@
 			<div class="background-shadow-wrapper">
 				<div class="background-shadow">
 					<div class="div-wrapper">
-						<img src="http://localhost/images/azalea.png" class="div-wrapper-png" />
+						<img src="/images/azalea.png" class="div-wrapper-png" />
 						<div class="div-wrapper-2">
 							<div class="div-2">
 								<div class="heading-2">
@@ -96,7 +96,7 @@
 			<div class="background-shadow-wrapper">
 				<div class="background-shadow">
 					<div class="div-wrapper">
-						<img src="http://localhost/images/oleaster.png" class="div-wrapper-png" />
+						<img src="/images/oleaster.png" class="div-wrapper-png" />
 						<div class="div-wrapper-2">
 							<div class="div-2">
 								<div class="heading-2">
@@ -138,7 +138,7 @@
 			<div class="background-shadow-wrapper">
 				<div class="background-shadow">
 					<div class="div-wrapper">
-						<img src="http://localhost/images/olive.png" class="div-wrapper-png" />
+						<img src="/images/olive.png" class="div-wrapper-png" />
 						<div class="div-wrapper-2">
 							<div class="div-2">
 								<div class="heading-2">

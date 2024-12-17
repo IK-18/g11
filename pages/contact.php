@@ -1,6 +1,6 @@
 <?php session_start() ?>
 <div class="section">
-	<img src="http://localhost/images/contact-jpg.png" class="bg contact-jpg"></img>
+	<img src="/images/contact-jpg.png" class="bg contact-jpg"></img>
 </div>
 <div class="container-wrapper">
 	<form class="background-shadow-3">

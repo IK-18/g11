@@ -149,7 +149,7 @@
 	position: relative;
 	display: flex;
 	flex-direction: column;
-	background-image: url(http://localhost/images/info-cycle.png);
+	background-image: url(/images/info-cycle.png);
 	background-size: cover;
 	background-position: 50% 50%;
 }

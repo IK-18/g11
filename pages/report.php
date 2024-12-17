@@ -1,6 +1,6 @@
 <?php session_start() ?>
 <div class="section">
-	<img src="http://localhost/images/how-it-work-jpg.png" class="bg how-it-work-jpg"></img>
+	<img src="/images/how-it-work-jpg.png" class="bg how-it-work-jpg"></img>
 </div>
 <div class="cont-wrapper">
 	<div class="container">
@@ -18,7 +18,7 @@
 			</div>
 			<div class="div-cont">
 				<div class="tag">
-					<img src="http://localhost/images/anxiety.png" class="tag-img" alt="">
+					<img src="/images/anxiety.png" class="tag-img" alt="">
 					<div>
 						<div class="text-wrapper-2">Missing Persons</div>
 						<p class="text-wrapper-4">A missing person is a person who has disappeared and
@@ -27,7 +27,7 @@
 					</div>
 				</div>
 				<div class="tag">
-					<img src="http://localhost/images/find-my-friend-png.png" class="tag-img" alt="">
+					<img src="/images/find-my-friend-png.png" class="tag-img" alt="">
 					<div>
 						<div class="text-wrapper-2">Found & Unclaimed Persons</div>
 						<p class="text-wrapper-4">A Found & Unclaimed Person is a person who has been
@@ -35,7 +35,7 @@
 					</div>
 				</div>
 				<div class="tag">
-					<img src="http://localhost/images/face-detection.png" class="tag-img" alt="">
+					<img src="/images/face-detection.png" class="tag-img" alt="">
 					<div>
 						<div class="text-wrapper-2">Unidentified Bodies</div>
 						<p class="text-wrapper-4">An Unidentified person is used to describe a corpse of
@@ -44,15 +44,16 @@
 					</div>
 				</div>
 			</div>
-			<img class="flow" src="http://localhost/images/flow.png" alt="">
+			<img class="flow" src="/images/flow.png" alt="">
 			<?php include "../views/signup.php" ?>
 		<?php else: ?>
 			<script>
 				document.querySelector('.container').style.minHeight = '80vh';
 			</script>
-			<form class="form" action="http://localhost/server/scripts/report.php" method="post" >
+			<form class="form" enctype="multipart/form-data" action="/server/scripts/report.php" method="post" >
+				<input type="hidden" name="status" value="Missing">
 				<div class="logo">
-					<img class="security-shield" src="http://localhost/images/security-shield-2.png" />
+					<img class="security-shield" src="/images/security-shield-2.png" />
 					<div class="text-wrapper brand">ReportTerror</div>
 				</div>
 				<div class="container-6">
@@ -71,11 +72,19 @@
 						<option value="Female">Female</option>
 					</select>
 				</div>
+				<div class="container-6">
+					<label for="last_seen_date" class="text-wrapper-17">Last Seen Date</label>
+					<input placeholder="Last Seen Date" type="date" class="input" name="last_seen_date" id="last_seen_date">
+				</div>
+				<div class="container-6">
+					<label for="last_seen_location" class="text-wrapper-17">Last Seen Location</label>
+					<input placeholder="Last Seen Location" type="text" max="255" class="input" name="last_seen_location" id="last_seen_location">
+				</div>
 				<div class="container-6 drag-and-drop">
-					<label for="image" class="text-wrapper-17">Drag and drop an image of the person here.<br />Or click here to choose a file.</label>
-					<input accept="image/*" name="image" type="file" class="input file-input">
+					<label for="file" class="text-wrapper-17">Drag and drop an image of the person here.<br />Or click here to choose a file.</label>
+					<input accept="image/*" name="file" id="file" type="file" class="input file-input">
 					<div class="preview"></div>
-					<img src="http://localhost/vectors/profile-circle.svg" alt="">
+					<img src="/vectors/profile-circle.svg" alt="">
 				</div>
 				<button class="submit" role="submit">Submit</button>
 				<script>
@@ -99,8 +108,11 @@
 						e.preventDefault();
 						fileUpload.classList.remove('dragover')
 						const file = e.dataTransfer.files[0]
-						fileInput.files = files
-						showFilePreview(files)
+						fileInput.files = new DataTransfer().files
+						const dataTransfer = new DataTransfer()
+						dataTransfer.items.add(file)
+						fileInput.files = dataTransfer.files
+						showFilePreview(file)
 					})
 
 					const showFilePreview = (file) => {

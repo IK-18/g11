@@ -1,6 +1,6 @@
 <?php session_start() ?>
 <div class="section">
-	<img src="http://localhost/images/volunteer-bg-jpg.png" class="bg volunteer-bg-jpg"></img>
+	<img src="/images/volunteer-bg-jpg.png" class="bg volunteer-bg-jpg"></img>
 </div>
 <div class="container-wrapper">
 	<div class="container">

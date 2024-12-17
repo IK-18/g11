@@ -13,7 +13,7 @@ $donations = $stmt->get_result();
 $stmt->close();
 ?>
 <div class="section">
-	<img src="http://localhost/images/policenearby-jpg.png" class="bg policenearby-jpg"></img>
+	<img src="/images/policenearby-jpg.png" class="bg policenearby-jpg"></img>
 </div>
 <div class="container-wrapper">
 	<div class="container">
@@ -31,7 +31,7 @@ $stmt->close();
 				<button role="submit" class="button">
 					<div class="symbol-wrapper">
 						Search
-						<img class="symbol" src="http://localhost/vectors/search.svg" alt="">
+						<img class="symbol" src="/vectors/search.svg" alt="">
 					</div>
 				</button>
 			</div>
@@ -120,7 +120,7 @@ $stmt->close();
 
 	let fetchTableData = async (rowsPerPage, currentPage, search = '') => {
 		if (search === '') {
-			let res = await fetch(`http://localhost/server/scripts/find_a_station.php?rows=${rowsPerPage}&page=${currentPage}`);
+			let res = await fetch(`/server/scripts/find_a_station.php?rows=${rowsPerPage}&page=${currentPage}`);
 			let result = await res.json();
 			renderTable(result.rows);
 			if (result.totalPages < currentPage) {
@@ -129,7 +129,7 @@ $stmt->close();
 				renderPagination(result.total_pages, result.current_page);
 			}
 		} else {
-			let res = await fetch(`http://localhost/server/scripts/find_a_station.php?rows=${rowsPerPage}&page=${currentPage}&search=${search}`);
+			let res = await fetch(`/server/scripts/find_a_station.php?rows=${rowsPerPage}&page=${currentPage}&search=${search}`);
 			let result = await res.json();
 			renderTable(result.rows);
 			if (result.totalPages < currentPage) {

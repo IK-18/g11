@@ -122,7 +122,7 @@
 	position: relative;
 	width: 30vh;
 	height: 100%;
-	background-image: url(http://localhost/images/find-the-missing-person-campaign-jpg.png);
+	background-image: url(/images/find-the-missing-person-campaign-jpg.png);
 	background-size: cover;
 	background-position: 50% 50%;
 }
@@ -153,7 +153,7 @@
 	position: relative;
 	width: 30vh;
 	height: 100%;
-	background-image: url(http://localhost/images/psycho-social-support-missing-persons-jpg.png);
+	background-image: url(/images/psycho-social-support-missing-persons-jpg.png);
 	background-size: cover;
 	background-position: 50% 50%;
 }

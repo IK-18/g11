@@ -1,6 +1,6 @@
-<form method="post" action="http://localhost/server/scripts/login.php" class="login_form form">
+<form method="post" action="/server/scripts/login.php" class="login_form form">
 	<div class="logo">
-		<img class="security-shield" src="http://localhost/images/security-shield-2.png" />
+		<img class="security-shield" src="/images/security-shield-2.png" />
 		<div class="text-wrapper">ReportTerror</div>
 	</div>
 	<div class="container-6">
@@ -20,7 +20,7 @@
 						} else {
 							toggle.src = 'http:\/\/localhost/vectors/eye.svg';
 							input.type = 'password';
-						}" class="pass_toggle"><img id="toggle" src="http://localhost/vectors/eye.svg" alt="">
+						}" class="pass_toggle"><img id="toggle" src="/vectors/eye.svg" alt="">
 			</div>
 		</div>
 	</div>

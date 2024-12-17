@@ -2,7 +2,7 @@
 <div class="overlap">
 	<div class="group">
 		<div class="overlap-group">
-			<img class="reunited" src="http://localhost/images/reunited-2.png" />
+			<img class="reunited" src="/images/reunited-2.png" />
 			<div class="rectangle"></div>
 		</div>
 	</div>
@@ -101,7 +101,7 @@
 			missing persons in Africa,<br />worsening cases of insecurity and conflicts.</p>
 	</div>
 	<div class="component-3">
-		<a href="http://localhost/support" target="_blank" rel="noopener noreferrer">
+		<a href="/support" target="_blank" rel="noopener noreferrer">
 			<div class="text-2">What can you do?</div>
 		</a>
 	</div>

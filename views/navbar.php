@@ -1,35 +1,35 @@
 <div class="navbar">
-	<a href="http://localhost" class="logo">
-		<img class="security-shield" src="http://localhost/images/security-shield-2.png" />
+	<a href="" class="logo">
+		<img class="security-shield" src="/images/security-shield-2.png" />
 		<div class="text-wrapper">ReportTerror</div>
 	</a>
-	<a href="http://localhost/find_a_victim" class="link-wrapper">Find a Victim</a>
+	<a href="/find_a_victim" class="link-wrapper">Find a Victim</a>
 	<div class="dropdown">
-		<a href="http://localhost/report" class="link-wrapper">Make A Report</a>
+		<a href="/report" class="link-wrapper">Make A Report</a>
 		<div class="subs">
-			<a href="http://localhost/report" class="link-wrapper">Report a Missing Person</a>
-			<a href="http://localhost/anonymous" class="link-wrapper">Submit an Anonymous Tip</a>
+			<a href="/report" class="link-wrapper">Report a Missing Person</a>
+			<a href="/anonymous" class="link-wrapper">Submit an Anonymous Tip</a>
 		</div>
 	</div>
-	<a href="http://localhost/get_help" class="link-wrapper">Get Help
+	<a href="/get_help" class="link-wrapper">Get Help
 	</a>
-	<a href="http://localhost/find_a_station" class="link-wrapper">Find A Station</a>
-	<a href="http://localhost/resources" class="link-wrapper">Resources</a>
+	<a href="/find_a_station" class="link-wrapper">Find A Station</a>
+	<a href="/resources" class="link-wrapper">Resources</a>
 	<div class="dropdown">
-		<a href="http://localhost/support" class="link-wrapper">Support</a>
+		<a href="/support" class="link-wrapper">Support</a>
 		<div class="subs">
-			<a href="http://localhost/donate" class="link-wrapper">Donate</a>
-			<a href="http://localhost/volunteer" class="link-wrapper">Volunteer</a>
+			<a href="/donate" class="link-wrapper">Donate</a>
+			<a href="/volunteer" class="link-wrapper">Volunteer</a>
 		</div>
 	</div>
 	<div class="dropdown">
-		<a href="http://localhost/contact" class="link-wrapper">Contact</a>
+		<a href="/contact" class="link-wrapper">Contact</a>
 		<div class="subs">
-			<a href="http://localhost/faq" class="link-wrapper">FAQ</a>
-			<a href="http://localhost/contact" class="link-wrapper">Reach Out</a>
+			<a href="/faq" class="link-wrapper">FAQ</a>
+			<a href="/contact" class="link-wrapper">Reach Out</a>
 		</div>
 	</div>
-	<a href="http://localhost/about" class="link-wrapper">About Us</a>
+	<a href="/about" class="link-wrapper">About Us</a>
 	<?php if (!isset($_SESSION['user_id']) || !isset($_SESSION['username'])): ?>
 		<a href="" onclick="
 		event.preventDefault();
@@ -49,9 +49,9 @@
 				<div class="text-wrapper-10">Hi <?php echo $username ?>!</div>
 			</div>
 			<div class="subs">
-				<a href="http://localhost/user" class="link-wrapper">Reports and Data</a>
-				<a href="http://localhost/profile" class="link-wrapper">Profile</a>
-				<a href="http://localhost/server/scripts/logout.php" class="link-wrapper">Logout</a>
+				<a href="/user" class="link-wrapper">Reports and Data</a>
+				<a href="/profile" class="link-wrapper">Profile</a>
+				<a href="/server/scripts/logout.php" class="link-wrapper">Logout</a>
 			</div>
 		</div>
 	<?php endif; ?>

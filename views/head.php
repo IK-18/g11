@@ -1,8 +1,8 @@
 <head>
 	<meta charset="utf-8" />
-	<link rel="icon" href="http://localhost/security-shield-2.png" type="image/png">
-	<link rel="stylesheet" href="http://localhost/styles/styleguide.css" />
-	<link rel="stylesheet" href="http://localhost/styles/global.css">
+	<link rel="icon" href="/security-shield-2.png" type="image/png">
+	<link rel="stylesheet" href="/styles/styleguide.css" />
+	<link rel="stylesheet" href="/styles/global.css">
 	<link rel="stylesheet" id="dynamic_link" >
 	<meta
 		name='viewport'
@@ -37,7 +37,7 @@
 				title = title.join(' ')
 				document.title = title;
 			}
-			fetch(`http://localhost/pages/${page}.php`).then(res => res.text()).then((res) => {
+			fetch(`/pages/${page}.php`).then(res => res.text()).then((res) => {
 				cont.innerHTML = res;
 				let tempDiv = document.createElement('div')
 				tempDiv.innerHTML = res;
